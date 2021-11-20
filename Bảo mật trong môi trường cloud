@@ -21,12 +21,12 @@ Data/Storage:
 - Improper media sanitization: việc chia sẻ tài nguyên dùng chung có thể dẫn đến tình huống nhà cung cấp dịch vụ tiến hành phá hủy dữ liệu vào cuối vòng đời của dữ liệu, tài nguyên cung cấp cho 1 người dùng sẽ ảnh hưởng đến các người dùng khác đang sử dụng chung tài nguyên vật lý.
 - Data backup: các bản sao lưu dữ liệu cũng cần được bảo vệ.
 - Web app and API security: các ứng dụng web app và API triển khai trên cloud cũng có những lỗ hổng về bảo mật tương tự như việc triển khai web app truyền thống, tuy nhiên các giải pháp cho môi trường truyền thống không phù hợp với môi trường cloud. (10 kiểu tấn công phổ biến). Việc bảo mật các API cũng là vấn đề cần quan tâm.
-- Identity management and access control: từ chốt dịch vụ bằng cách khóa tài khoản, cơ chế đặt lại thông tin yếu, kiểm tra việc ủy quyền, xác thực tên miền chéo, ...
+- Identity management and access control: từ chối dịch vụ bằng cách khóa tài khoản, cơ chế đặt lại thông tin yếu, kiểm tra việc ủy quyền, xác thực tên miền chéo...
   Ở mức độ Contractual & legal:
-Vấn đề về pháp lý và ràng buộc giữa nhà cung cấp dịch vụ cloud với ng dùng và chính quyền nơi đặt trung tâm dữ liệu.
+Vấn đề về pháp lý và ràng buộc giữa nhà cung cấp dịch vụ cloud với người dùng và chính quyền nơi đặt trung tâm dữ liệu.
 - Top các mối nguy hại với cloud năm 2016:
-Data breaches: rò rỉ, mất mát dữ liệu  - Weak Identity, Credential and Access Management - Insecure Application Programming Interfaces (APIs): Các APIs không bảo mật, thiếu an toàn.
-System and Application Vulnerabilities   - Account Hijacking - Malicious Insiders
+Data breaches: rò rỉ, mất mát dữ liệu - Weak Identity, Credential and Access Management - Insecure Application Programming Interfaces (APIs): Các APIs không bảo mật, thiếu an toàn.
+System and Application Vulnerabilities - Account Hijacking - Malicious Insiders
 Các giải pháp bảo mật cloud:
   Ở mức độ Communication & network:
 - Sử dụng VLAN, IDS, IPS, tường lửa
@@ -49,13 +49,13 @@ Các giải pháp bảo mật cloud:
 Create -> Store -> Use -> Share -> Archive -> Destroy
   Ở mức độ Cloud Application & API
 - Các yêu cầu về bảo mật và quyền riêng tư phải được xác định phù hợp với nhu cầu phát triển và triển khai cloud.
-- Các rủi ro và hoạt động tấn công cụ thể trong cloud computing phỉa được phát hiện và đồng hóa vào các yêu cầu bảo mật.
+- Các rủi ro và hoạt động tấn công cụ thể trong cloud computing phải được phát hiện và đồng hóa vào các yêu cầu bảo mật.
 - Chu trình phát triển phần mềm và kiến trúc phần mềm an toàn nên được phát triển và duy trì (tái sử dụng các module phần mềm đã an toàn)
 - Thường xuyên kiểm tra thâm nhập cho các ứng dụng web.
   Ở mức độ Identity management & Access control
 - IAM bao gồm identification (định danh), anthentication (chứng thực), authorization (ủy quyền), gồm cả quản lý truy cập.
 - Tin cậy hai chiều cần được đảm bảo cho các giao dịch an toàn.
-- Cloud platform hoặc cloud provider cần hỗ trợ phân nhóm quản trị, tạo các tài khoản quản trị cấp thấp hơn chỉ có thể quản lý cac dịch vụ riêng lẻ.
+- Cloud platform hoặc cloud provider cần hỗ trợ phân nhóm quản trị, tạo các tài khoản quản trị cấp thấp hơn chỉ có thể quản lý các dịch vụ riêng lẻ.
   Ở mức độ Contractual & legal:
 - Cần tích hợp các yếu tố định lượng rủi ro khi sử dụng các dịch vụ cloud cụ thể.
 - Cung cấp tùy chọn cho người dùng để đánh dấu những địa điểm mà người dùng không muốn di chuyển tài sản dữ liệu trong quá trình đàm phán SLA. (service level agreement)
