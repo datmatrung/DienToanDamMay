@@ -1,0 +1,28 @@
+- Công ty ABC cần di chuyển một số dịch vụ mạng và dữ liệu vào môi trường cloud. Mô hình triển khai nào sau đây phù hợp? Hybrid Cloud
+- Công ty ABC cần triển khai một website, mô hình dịch vụ nào sau đây phù hợp? SaaS/ PaaS/ IaaS tùy thuộc kinh phí công ty
+- Dịch vụ nào sau đây được cung cấp dưới dạng mô hình SaaS: G-Suit, Office 365
+- Dịch vụ nào sau đây được cung cấp dưới dạng mô hình PaaS: Google App Engine, MS Azure Redis Cache, Azure SQL Database,
+Google map Platform, AWS Elastic Beantalk
+- Dịch vụ nào sau đây được cung cấp dưới dạng mô hình IaaS: Linux Virtual Machine, Google Compute Engine, AWS EC2
+- Mô hình dịch vụ cloud nào sau đây người dùng có ít quyền kiểm soát hệ thống nhất? SaaS
+- Mô hình quản lý dịch vụ cloud nào sau đây cho phép người dùng quản lý đến mức OS: IaaS
+- Mô hình triển khai cloud phù hợp nhu cầu tận dụng hạ tầng public cloud nhưng tăng tính năng bảo mật? Virtual Private Cloud
+- Một trong những hạn chế khi sử dụng dịch vụ điện toán đám mây là: Vendor lock-in
+- Mục đích của Community Cloud Model là: hỗ trợ một cộng đồng có cùng mục đích, mối quan tâm, mục tiêu nghiên cứu, dự án
+- Thuật ngữ "Anything as a Service" được gọi tắt là: XaaS
+- PaaS là mô hình được thiết kế để hỗ trợ chu kì phát triển ứng dụng hoàn chỉnh
+- Bạn phát triển ứng dụng và muốn tập trung vào develope, test and deloy. Dịch vụ cloud nào phù hợp? PaaS
+- Mô hình triển khai cloud là bước đệm để chuyển đổi mô hình mạng, tài nguyên sang public cloud? Hybrid Cloud
+- IaaS cung cấp các dịch vụ đi kèm nhằm tự động hóa việc quản lý, điều phối, giám sát cơ sở hạ tầng
+- DRaaS là viết tắt của: Diaster Recovery as a Service
+- Chính phủ nên triển khai loại mô hình điện toán đám mây nào? Private Cloud
+- Mô hình triển khai nào dùng cho khách hàng muốn chạy một phần khối lượng công việc của họ tại chỗ và 1 phần trên cloud? Hybrid Cloud
+- Bất lợi của dịch vụ điện toán đám mây là Vendor Lock-in
+- Điện toán đám mây cung cấp tài nguyên CNTT theo yêu cầu: Đúng
+- Trong điện toán đám mây, doanh nghiệp được lợi như thế nào nhờ khả năng mở rộng tài nguyên theo yêu cầu:
+Trả tiền cho tài nguyên được sử dụng thay vì trả tiền cho nhu cầu cao điểm
+- Mô hình cung cấp dịch vụ căn bản của Cloud Provider: Saas, PaaS, IaaS
+- Điều nào sau đây xác định trách nhiệm của cả khách hàng và nhà cung cấp dịch vụ điện toán đám mây: Service-level agreement
+- Vendor lock-in gây khó khăn khi khách hàng chuyển đổi ứng dụng/dữ liệu sang nhà cung cấp cloud khác: Đúng
+- Mô hình dịch vụ cloud nào sau đây cho phép người dùng quản lý OS trong aplication stack: IaaS
+- Hiệu ứng Noisy-neighbour xảy ra khi ứng dụng/người dùng sử dụng phần lớn tài nguyên gây giảm hiệu suất trên cơ sở hạ tầng chung
