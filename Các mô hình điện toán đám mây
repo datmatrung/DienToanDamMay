@@ -1,7 +1,6 @@
-- Mô hình mạng doanh nghiệp cục bộ:
-     Mô hình quản lý cục bộ: Cơ sở hạ tầng, hệ thống mạng, dữ liệu được lưu trữ cục bộ, doanh nghiệp tự triển khai,
+- Mô hình quản lý cục bộ: Cơ sở hạ tầng, hệ thống mạng, dữ liệu được lưu trữ cục bộ, doanh nghiệp tự triển khai,
 vận hành hệ thống máy chủ, ứng dụng cục bộ
-     Mô hình thuê hosting/VPS: Một bộ phận hệ thống máy chủ, dịch vụ mạng được triển khai tại các trung tâm lưu trữ dữ liệu
+- Mô hình thuê hosting/VPS: Một bộ phận hệ thống máy chủ, dịch vụ mạng được triển khai tại các trung tâm lưu trữ dữ liệu
 của nhà cung cấp dịch vụ. Có thể thuê các ứng dụng chuyên biết phục vụ nhu cầu doanh nghiệp từ nhiều nhà cung cấp dịch vụ khác nhau.
 => Vấn đề: * Nguồn lực IT chuyên nghiệp quản trị hệ thống 
            * Nhu cầu mở rộng doanh nghiệp đi kèm sự mở rộng của hệ thống mạng, máy chủ, ứng dụng...
