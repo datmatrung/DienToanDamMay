@@ -1,47 +1,51 @@
-Các yếu tố tạo nên môi trường cloud an toàn: Regulatory Standard: Các yêu cầu pháp lý cao dẫn đến các giải pháp bảo mật tốt hơn - Security Tool: các chương trình, công cụ bảo mật - DdoS Mitigation: khả năng chống lại các cuộc tấn công DdoS -  Confidentiality: dữ liệu khách hàng được giữ bí mật.
--	Các thách thức bảo mật trong môi trường cloud:
-o	Ở mức độ Communication & network:
-	Share communication infrastructure: việc chia sẻ tài nguyên phần cứng dùng chung có thể dẫn đến các nguy cơ bảo mật dối với các dịch vụ IaaS (người dùng được cấp các quyền truy cập cao vào cơ sở hạ tầng đang được cung cấp)
-	Virtual network: các cơ chế giám sát mạng thông thường không phù hợp với hệ thống mạng ảo hóa, cần có những giải pháp giám sát mạng ảo chuyên biệt.
-	Security misconfigration: cấu hình bảo mật thiếu chính xác dẫn đến các lỗ hổng bảo mật nghiêm trọng, thiếu an toàn cho dữ liệu khách hàng.
-o	Ở mức độ Architectural:
+Các yếu tố tạo nên môi trường cloud an toàn: 
+- Regulatory Standard: Các yêu cầu pháp lý cao dẫn đến các giải pháp bảo mật tốt hơn 
+- Security Tool: các chương trình, công cụ bảo mật 
+- DdoS Mitigation: khả năng chống lại các cuộc tấn công DdoS 
+- Confidentiality: dữ liệu khách hàng được giữ bí mật
+Các thách thức bảo mật trong môi trường cloud:
+  Ở mức độ Communication & network:
+- Share communication infrastructure: việc chia sẻ tài nguyên phần cứng dùng chung có thể dẫn đến các nguy cơ bảo mật đối với các dịch vụ IaaS (người dùng được cấp các quyền truy cập cao vào cơ sở hạ tầng đang được cung cấp)
+- Virtual network: các cơ chế giám sát mạng thông thường không phù hợp với hệ thống mạng ảo hóa, cần có những giải pháp giám sát mạng ảo chuyên biệt.
+- Security misconfigration: cấu hình bảo mật thiếu chính xác dẫn đến các lỗ hổng bảo mật nghiêm trọng, thiếu an toàn cho dữ liệu khách hàng.
+  Ở mức độ Architectural:
 Virtualization:
-•	VM isolation: vi phạm dữ liệu và tấn công chéo giữa các máy ảo trên cùng 1 host vật lý hoặc trong cùng 1 nhóm quản lý. Cần có sự cô lập giữa các máy ảo.
-•	VM escapes: máy ảo thoát khỏi sự quản lý của chương trình quản lý máy ảo (virtual machines management)
-•	VM migration: di chuyển máy ảo sẽ dẫn đến khả năng lộ dữ liệu trên đường mạng truyền di chuyển, nguy cơ máy ảo đích hoặc chương trình quản lý máy ảo đích đã bị tấn công dẫn đến thất thoát dữ liệu.
-•	VM rollback: khôi phục máy ảo về các trạng thái trước đó có thể kích hoạt các lỗ hổng bảo mật trước đó
-•	Hypervisor (virtual machines management): khi VM bị tấn công thì toàn bộ máy ảo chịu sự quản lý của chính VM này sẽ bị kiểm soát bởi kẻ tấn công.
-•	VM sprawl: tình trạng một số máy ảo được khởi tạo không hoạt động dẫn đến lãng phí tài nguyên của nhà cung cấp dịch vụ.
+- VM isolation: vi phạm dữ liệu và tấn công chéo giữa các máy ảo trên cùng 1 host vật lý hoặc trong cùng 1 nhóm quản lý. Cần có sự cô lập giữa các máy ảo.
+- VM escapes: máy ảo thoát khỏi sự quản lý của chương trình quản lý máy ảo (virtual machines management)
+- VM migration: di chuyển máy ảo sẽ dẫn đến khả năng lộ dữ liệu trên đường mạng truyền di chuyển, nguy cơ máy ảo đích hoặc chương trình quản lý máy ảo đích đã bị tấn công dẫn đến thất thoát dữ liệu.
+- VM rollback: khôi phục máy ảo về các trạng thái trước đó có thể kích hoạt các lỗ hổng bảo mật trước đó
+- Hypervisor (virtual machines management): khi VM bị tấn công thì toàn bộ máy ảo chịu sự quản lý của chính VM này sẽ bị kiểm soát bởi kẻ tấn công.
+- VM sprawl: tình trạng một số máy ảo được khởi tạo không hoạt động dẫn đến lãng phí tài nguyên của nhà cung cấp dịch vụ.
 Data/Storage:
-•	Data recovery vulnerability: việc dùng chung tài nguyên có thể dẫn đến tình huống ng dùng độc hại được phân bổ tài nguyên có thể khôi phục dữ liệu của người dùng khác sử dụng phần tài nguyên đó trước đó.
-•	Improper media sanitization: việc chia sẻ tài nguyên dùng chung có thể dẫn đến tình huống nhà cung cấp dịch vụ tiến hành phá hủy dữ liệu vào cuối vòng đời của dữ liệu, tài nguyên cung cấp cho 1 người dùng sẽ ảnh hưởng đến các người dùng khác đang sử dụng chung tài nguyên vật lý.
-•	Data backup: các bản sao lưu dữ liệu cũng cần được bảo vệ.
-•	Web app and API security: các ứng dụng web app và API triển khai trên cloud cũng có những lỗ hổng về bảo mật tương tự như việc triển khai web app truyền thống, tuy nhiên các giải pháp cho môi trường truyền thống không phù hợp với môi trường cloud. (10 kiểu tấn công phổ biến). Việc bảo mật các API cũng là vấn đề cần quan tâm.
-•	Identity management and access control: từ chốt dịch vụ bằng cách khóa tài khoản, cơ chế đặt lại thông tin yếu, kiểm tra việc ủy quyền, xác thực tên miền chéo, ...
-o	Ở mức độ Contractual & legal:
-	Vấn đề về pháp lý và ràng buộc giữa nhà cung cấp dịch vụ cloud với ng dùng và chính quyền nơi đặt trung tâm dữ liệu.
--	Top các mối nguy hại với cloud năm 2016:
+- Data recovery vulnerability: việc dùng chung tài nguyên có thể dẫn đến tình huống ng dùng độc hại được phân bổ tài nguyên có thể khôi phục dữ liệu của người dùng khác sử dụng phần tài nguyên đó trước đó.
+- Improper media sanitization: việc chia sẻ tài nguyên dùng chung có thể dẫn đến tình huống nhà cung cấp dịch vụ tiến hành phá hủy dữ liệu vào cuối vòng đời của dữ liệu, tài nguyên cung cấp cho 1 người dùng sẽ ảnh hưởng đến các người dùng khác đang sử dụng chung tài nguyên vật lý.
+- Data backup: các bản sao lưu dữ liệu cũng cần được bảo vệ.
+- Web app and API security: các ứng dụng web app và API triển khai trên cloud cũng có những lỗ hổng về bảo mật tương tự như việc triển khai web app truyền thống, tuy nhiên các giải pháp cho môi trường truyền thống không phù hợp với môi trường cloud. (10 kiểu tấn công phổ biến). Việc bảo mật các API cũng là vấn đề cần quan tâm.
+- Identity management and access control: từ chốt dịch vụ bằng cách khóa tài khoản, cơ chế đặt lại thông tin yếu, kiểm tra việc ủy quyền, xác thực tên miền chéo, ...
+  Ở mức độ Contractual & legal:
+Vấn đề về pháp lý và ràng buộc giữa nhà cung cấp dịch vụ cloud với ng dùng và chính quyền nơi đặt trung tâm dữ liệu.
+- Top các mối nguy hại với cloud năm 2016:
 Data breaches: rò rỉ, mất mát dữ liệu  - Weak Identity, Credential and Access Management - Insecure Application Programming Interfaces (APIs): Các APIs không bảo mật, thiếu an toàn.
 System and Application Vulnerabilities   - Account Hijacking - Malicious Insiders
 Các giải pháp bảo mật cloud:
-o	Ở mức độ Communication & network:
-	Sử dụng VLAN, IDS, IPS, tường lửa
-	Sử dụng các thiết bị ảo hóa và thiết bị vật lý có khả năng tương thích tốt với hypervisor: đảm bảo khả năng giám sát lưu lượng trên mạng ảo, phát hiện xâm nhập kịp thời.
-	Theo dõi liên tục các máy ảo đang chạy trên nền tảng máy chủ: nhanh chóng vô hiệu hóa các cuộc tấn công xuất phát từ bên trong.
-	Cô lập mạng ảo, sử dụng các giao thức L2TP để mã hóa dữ liệu trong kết nối VPN.
-o	Ở mức độ Virtualization:
-	Áp dụng các phương thức bảo vệ trên hệ điều hành ảo.
-	Sử dụng các công cụ, kỹ thuật bảo mật từ bên thứ 3, giảm sự phụ thuộc vào nhà cung cấp dịch vụ cloud.
-	Mã hóa các thành phần của máy ảo (virtual disk, virtual devices, virtual network)
-	Phát triển các hypervisor, VMM bảo mật.
-o	Ở mức độ Data/Storage:
-	Việc quản lý khóa bảo mật phải được thực hiện bởi một nguồn đáng tin cậy
-	Nên sử dụng các thuật toán mã hóa tiêu chuẩn để mã hóa dữ liệu trước khi tải lên cloud để đảm bảo quyền riêng tư của dữ liệu.
-	Bảo mật các thao tác được thực hiện trên dữ liệu người dùng
-	Hỗ trợ chia sẻ dữ liệu an toàn trong nhóm.
-	Xác định các yêu cầu quản trị về thông tin trước khi lập kế hoạch chuyển đổi sang đám mây.
-	Đảm bảo chính sách và thông lệ quản trị thông tin của doanh nghiệp khi triển khai vào cloud
-	Sử dụng vòng đời bảo mật dữ liệu để hỗ trỡ mô hình xử lý và điều khiển dữ liệu.
+  Ở mức độ Communication & network:
+- Sử dụng VLAN, IDS, IPS, tường lửa
+- Sử dụng các thiết bị ảo hóa và thiết bị vật lý có khả năng tương thích tốt với hypervisor: đảm bảo khả năng giám sát lưu lượng trên mạng ảo, phát hiện xâm nhập kịp thời.
+- Theo dõi liên tục các máy ảo đang chạy trên nền tảng máy chủ: nhanh chóng vô hiệu hóa các cuộc tấn công xuất phát từ bên trong.
+- Cô lập mạng ảo, sử dụng các giao thức L2TP để mã hóa dữ liệu trong kết nối VPN.
+  Ở mức độ Virtualization:
+- Áp dụng các phương thức bảo vệ trên hệ điều hành ảo.
+- Sử dụng các công cụ, kỹ thuật bảo mật từ bên thứ 3, giảm sự phụ thuộc vào nhà cung cấp dịch vụ cloud.
+- Mã hóa các thành phần của máy ảo (virtual disk, virtual devices, virtual network)
+- Phát triển các hypervisor, VMM bảo mật.
+  Ở mức độ Data/Storage:
+- Việc quản lý khóa bảo mật phải được thực hiện bởi một nguồn đáng tin cậy
+- Nên sử dụng các thuật toán mã hóa tiêu chuẩn để mã hóa dữ liệu trước khi tải lên cloud để đảm bảo quyền riêng tư của dữ liệu.
+- Bảo mật các thao tác được thực hiện trên dữ liệu người dùng
+- Hỗ trợ chia sẻ dữ liệu an toàn trong nhóm.
+- Xác định các yêu cầu quản trị về thông tin trước khi lập kế hoạch chuyển đổi sang đám mây.
+- Đảm bảo chính sách và thông lệ quản trị thông tin của doanh nghiệp khi triển khai vào cloud
+- Sử dụng vòng đời bảo mật dữ liệu để hỗ trỡ mô hình xử lý và điều khiển dữ liệu.
 Create -> Store -> Use -> Share -> Archive -> Destroy
 o	Ở mức độ Cloud Application & API
 •	Các yêu cầu về bảo mật và quyền riêng tư phải được xác định phù hợp với nhu cầu phát triển và triển khai cloud.
