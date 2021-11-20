@@ -1,41 +1,40 @@
-o	KỸ THUẬT MỚI:
+- KỸ THUẬT MỚI:
 Cloud phát triển với tốc độ nhanh chóng mang đến sự phát triển của các dịch vụ, công cụ mới nhất để tự động hóa và tự phục hồi cơ sở hạ tầng cho doanh nghiệp
 Cung cấp những kỹ thuật mới nhất như serverless, IoT,... Hỗ trợ tối đa cho doanh nghiệp
-o	TIỀM NĂNG KINH TẾ:
+- TIỀM NĂNG KINH TẾ:
 Tiết kiệm thời gian - Dễ dàng mở rộng quy mô sản phẩm, tăng tốc quá trình đưa sản phẩm vào thị trường -  Hỗ trợ sẵn tài nguyên: server, platform, service - Tiết kiệm nhân lực IT để quản lý hệ thống
-o	GIẢM RỦI RO:
+- GIẢM RỦI RO:
 Đảm bảo tính sẵn sàng cao (High Availability) - Khả năng phục hồi nhanh chóng (Resiliency) - Tính bảo mật cao -Giảm thiểu việc mất hoặc gián đoạn kết nối với dữ liệu, khách hàng - Có nhiều môi trường để kiểm tra, phát triển sản phẩm (testing - development)
-o	KHẢ NĂNG PHÁT TRIỂN DOANH NGHIỆP:
+- KHẢ NĂNG PHÁT TRIỂN DOANH NGHIỆP:
 Remote Access: Cơ sở hạ tầng, dữ liệu có thể truy cập từ xa - Swift & Smooth: Vận hành hoạt động kinh doanh nhanh chóng, trơn tru hơn -  Focus: tập trung phát triển chức năng, dịch vụ chính của doanh nghiệp - Collaboration: Mở ra cơ hội cộng tác với các doanh nghiệp tổ chức khác
 -	Một số ràng buộc khi sử dụng cloud:
-o	LIMITED PLATFORMS
+- LIMITED PLATFORMS
 Phụ thuộc nhiều vào platform và phiên bản mà nhà cung cấp cloud hỗ trợ - Sự khác biệt về platform giữa các nhà cung cấp cloud và các instance mà người dùng mong muốn - Sự tương thích giữa nền tảng lưu trữ dữ liệu của doanh nghiệp và nhà cung cấp cloud
-o	CONNECTIVITY
+- CONNECTIVITY
 Khả năng mất kết nối internet có thể dẫn đến việc mất dữ liệu tạm thời - Ảnh hưởng đến việc kết nối với khách hàng, đối tác -  Doanh thu của doanh nghiệp có thể bị ảnh hưởng trong thời gian mất kết nối - Tốc độ đường truyền internet cũng có thể ảnh hưởng đến hoạt động của doanh nghiệp
-o	COST
+- COST
 Chi phí cloud có thể tăng cao nếu không quản lý tốt - Nên loại bỏ những dịch vụ không thật sự cần thiết khi dùng cloud - Cần người am hiểu đầy đủ cách tính phí dịch vụ cloud để quản lý chi phí
-o	TRUSTED
+- TRUSTED
 Nhà cung cấp cloud có thể truy cập trực tiếp vào dữ liệu doanh nghiệp (physical access) - Doanh nghiệp có thể tăng tính bảo mật bằng cách mã hóa dữ liệu - Tham khảo và lựa chọn nhà cung cấp cloud uy tín, xem xét kỹ các chính sách bảo mật, quyền hạn của nhà cung cấp cloud và doanh nghiệp đối với dữ liệu
-o	TECH-ABILITY
+- TECH-ABILITY
 Đội ngũ nhân viên cần đáp ứng kỹ năng làm việc với môi trường mới - Thiết kế ứng dụng có khả năng mở rộng: tách riêng phần xử lý và phần dữ liệu để dễ dàng phát triển riêng từng phần độc lập trong ứng dụng (possible-redesign)
 -	Các mô hình triển khai điện toán đám mây (public, private, hybird cloud, các mô hình phát sinh như virtual private cloud, comunity cloud,... tìm hiểu tính chất từng mô hình)
-Public cloud:
-Đặc điểm:
-Chia sẻ chung cơ sở hạ tầng, tài nguyên (network, storage, compute,...)  - Kết nối với các dịch vụ, dữ liệu từ nhiều vị trí thông qua kết nối internet - Người dùng không quản lý trực tiếp phần cứng, hay biết rõ vị trí đặt dữ liệu (location) - Thường được dùng triển khai các dịch vụ web-mail, ứng dụng văn phòng, hoặc các môi trường phát triển/ kiểm thử phần mềm - Nhà cung cấp dịch vụ quản lý: power, cooling, host failures, installations.
-Lợi ích:: Viện vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý - Chi phí thấp: chỉ trả phí các dịch vụ sử dụng - Tài nguyên được cung cấp theo nhu cầu nhười dùng - Khả năng phục hồi nhanh chóng, độ tin cậy cao
-Vấn đề: Tính bảo mật và riêng tư  - Quyền kiểm soát hệ thống
+- Public cloud:
+  Đặc điểm: Chia sẻ chung cơ sở hạ tầng, tài nguyên (network, storage, compute,...)  - Kết nối với các dịch vụ, dữ liệu từ nhiều vị trí thông qua kết nối internet - Người dùng không quản lý trực tiếp phần cứng, hay biết rõ vị trí đặt dữ liệu (location) - Thường được dùng triển khai các dịch vụ web-mail, ứng dụng văn phòng, hoặc các môi trường phát triển/ kiểm thử phần mềm - Nhà cung cấp dịch vụ quản lý: power, cooling, host failures, installations.
+  Lợi ích: Việc vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý - Chi phí thấp: chỉ trả phí các dịch vụ sử dụng - Tài nguyên được cung cấp theo nhu cầu nhười dùng - Khả năng phục hồi nhanh chóng, độ tin cậy cao
+  Vấn đề: Tính bảo mật và riêng tư  - Quyền kiểm soát hệ thống
 Private cloud
-Đặc điểm: Cơ sở hạ tầng, tài nguyên được duy trì trên một mạng riêng, các dịch vụ về phần cứng, phần mềm chỉ dành riêng cho doanh nghiệp - Doanh nghiệp có nhiều quyền hạn hơn trong việc quản lý cloud - Có khả năng truy cập/ điều khiển dữ liệu trực tiếp (physical) - Thường được dùng bởi các tổ chức quy mô vừa và lớn (chính phủ, tài chính,... )
-Lợi ích:  Linh động hơn trong việc tùy chỉnh tài nguyên - Tính bảo mật cao hơn - Khả năng mở rộng
-Vấn đề: Cần nguồn lực IT có kiến thức chuyên sâu  - Chi phí cao
+  Đặc điểm: Cơ sở hạ tầng, tài nguyên được duy trì trên một mạng riêng, các dịch vụ về phần cứng, phần mềm chỉ dành riêng cho doanh nghiệp - Doanh nghiệp có nhiều quyền hạn hơn trong việc quản lý cloud - Có khả năng truy cập/ điều khiển dữ liệu trực tiếp (physical) - Thường được dùng bởi các tổ chức quy mô vừa và lớn (chính phủ, tài chính,... )
+  Lợi ích:  Linh động hơn trong việc tùy chỉnh tài nguyên - Tính bảo mật cao hơn - Khả năng mở rộng
+  Vấn đề: Cần nguồn lực IT có kiến thức chuyên sâu  - Chi phí cao
 Hybird cloud
-Đặc điểm: Hybrid cloud là mô hình kết hợp giữa public cloud và private cloud, mở rộng mạng logic nội bộ - Linh động và có nhiều tùy chọn triển khai hơn trong việc di chuyển dữ liệu/ ứng dụng giữa private cloud và public cloud - Thường được cấu hình ngắn hạn, phù hợp làm tiền đề trước khi doanh nghiệp chuyển toàn bộ dịch vụ vào public cloud
-Lợi ích: Có thể duy trì cơ sở hạ tầng nhạy cảm ở private cloud - Dễ dàng chuyển đổi mô hình mạng, tài nguyền sang cloud - Linh động trong việc thêm tài nguyên trong public cloud khi cần - Tiết kiệm chi phí hơn private cloud
-Vấn đề: Triển khai phức tạp - Cần nguồn lực IT có kiến thức chuyên sâu  - Độ trễ khi truyền dữ liệu - Chi phí cao đối với doanh nghiệp có data ổn định
+  Đặc điểm: Hybrid cloud là mô hình kết hợp giữa public cloud và private cloud, mở rộng mạng logic nội bộ - Linh động và có nhiều tùy chọn triển khai hơn trong việc di chuyển dữ liệu/ ứng dụng giữa private cloud và public cloud - Thường được cấu hình ngắn hạn, phù hợp làm tiền đề trước khi doanh nghiệp chuyển toàn bộ dịch vụ vào public cloud
+  Lợi ích: Có thể duy trì cơ sở hạ tầng nhạy cảm ở private cloud - Dễ dàng chuyển đổi mô hình mạng, tài nguyền sang cloud - Linh động trong việc thêm tài nguyên trong public cloud khi cần - Tiết kiệm chi phí hơn private cloud
+  Vấn đề: Triển khai phức tạp - Cần nguồn lực IT có kiến thức chuyên sâu  - Độ trễ khi truyền dữ liệu - Chi phí cao đối với doanh nghiệp có data ổn định
 Community cloud: Cung cấp giải pháp cloud cho một số cá nhân hoặc nhóm các tổ chức, doanh nghiệp cùng lĩnh vực/ cùng mối quan tâm - Thường được áp dụng cho các tổ chức doanh nghiệp làm việc chung dự án, ứng dụng hoặc nghiên cứu - Chi phí thấp hơn private cloud nhưng cao hơn public cloud
 Virtual Private Cloud: Một dạng mô hình của hybrid cloud, trong đó giải pháp private cloud được triển khai trên cơ sở hạ tầng của public cloud - Cơ sở hạ tầng được cô lập từng phần cụ thể dành riêng cho từng VPC (máy chủ, mạng ảo, lưu trữ và dải IP riêng), không chia sẻ với tổ chức doanh nghiệp khác - Phục vụ nhu cầu muốn tận dụng public cloud nhưng lo ngại về vấn đề bảo mật, quyền kiểm soát dữ liệu, quyền riêng tư
 -	Các mô hình dịch vụ điện toán đám mây: (SaaS, PaaS, IaaS,... ví dụ minh họa)
-SaaS: (Software as a Service) Đặc điểm: - SaaS cung cấp giải pháp phần mềm hoàn chỉnh cho người dùng thuê thông qua internet (thường là ứng dụng dạng web application) - Tất cả các cơ sở hạ tầng cơ bản, phần mềm trung gian, phần mềm ứng dụng và dữ liệu ứng dụng được đặt tại trung tâm dữ liệu của nhà cung cấp cloud - SaaS hỗ trợ doanh nghiệp sử dụng ứng dụng nhanh chóng, không cần cài đặt hay chuẩn bị môi trường cho ứng dụng trên máy tính cá nhân hay datacenter với chi phí tối thiểu Ưu điểm: Chi phí linh hoạt, chi trả định kì - Tự động cập nhật - Dễ dàng truy cập - Khả năng mở rộng hoặc thu hẹp tính năng của phần mềm  - Viện vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý. Vấn đề: Tính bảo mật và riêng tư Quyền kiểm soát hệ thống. Ví dụ: Office 365, G -suite
-PaaS (Platform as a Service) Đặc điểm: PaaS bao gồm cơ sở hạ tầng các máy chủ, hệ thống lưu trữ, kết nối mạng, các middleware, công cụ phát triển ứng dụng, hệ thống quản lý cơ sở dữ liệu, các dịch vụ kinh doanh thông minh (BI) - Được thiết kế đễ hỗ trỡ chu kì phát triển ứng dụng hoàn chỉnh: xây dựng, kiểm thử, triển khai, quản lý và cập nhật.Ưu điểm: Đa nền tảng - Chi phí tính phí trên mỗi lần truy cập - Tiết kiệm thời gian. Vấn đề: Lock-in: khách hàng phụ thuộc vào nhà cung cấp dịch vụ, khó khăn trong việc chuyển đổi nhà cung cấp dịch vụ - Internal-change: sự thay đổi của nhà cung cấp dịch vụ ảnh hưởng đến người dùng (ngôn ngữ, framework mà nhà cung cấp hỗ trợ,...) - Khả năng sẵn sàng và phục hồi. Ví dụ: Google App Engine, MS Azure Redis Cache,  Azure SQL Database, Google Map Platform, AWS Elastic Beantalk. Ng dùng dc quản lý Application và Data.
-IaaS (Infrastructure as a Service): Đặc điểm: Cung cấp cơ sở hạ tầng điện toán tức thời thông qua internet như: server, thiết bị phần cứng lưu trữ và mạng, ảo hóa - Mỗi tài nguyên được cung cấp dưới dạng một dịch vụ riêng biệt - IaaS cũng cung cấp các dịch vụ đi kèm nhằm tự động hóa việc quản lý, điều phối, giám sát cơ sở hạ tầng. Ưu điểm: Tiết kiệm chi phí đầu tư - Tính sẵn sàng cao - Linh động trong việc thêm/giảm tài nguyên -Tiết kiệm thời gian - Bảo mật. Vấn đề: Quản lý chi phí - Quyền kiểm soát hệ thống – Noisyneighbor(xảy ra khi ứng dụn/người dùng sử dụng phần lớn tài nguyên gây giảm hiệu suất trên cơ sở hạ tầng chung). Ví dụ: Linux Virtual Machine, Google Compute Engine, AWS EC2. Người dùng dc quản lý: Applications – Data – Runtime – Middleware- O/S
-DRaaS: Disaster Reconvery as a Service. XaaS: anything as a service
+  SaaS: (Software as a Service) Đặc điểm: - SaaS cung cấp giải pháp phần mềm hoàn chỉnh cho người dùng thuê thông qua internet (thường là ứng dụng dạng web application) - Tất cả các cơ sở hạ tầng cơ bản, phần mềm trung gian, phần mềm ứng dụng và dữ liệu ứng dụng được đặt tại trung tâm dữ liệu của nhà cung cấp cloud - SaaS hỗ trợ doanh nghiệp sử dụng ứng dụng nhanh chóng, không cần cài đặt hay chuẩn bị môi trường cho ứng dụng trên máy tính cá nhân hay datacenter với chi phí tối thiểu Ưu điểm: Chi phí linh hoạt, chi trả định kì - Tự động cập nhật - Dễ dàng truy cập - Khả năng mở rộng hoặc thu hẹp tính năng của phần mềm  - Viện vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý. Vấn đề: Tính bảo mật và riêng tư Quyền kiểm soát hệ thống. Ví dụ: Office 365, G -suite
+  PaaS (Platform as a Service) Đặc điểm: PaaS bao gồm cơ sở hạ tầng các máy chủ, hệ thống lưu trữ, kết nối mạng, các middleware, công cụ phát triển ứng dụng, hệ thống quản lý cơ sở dữ liệu, các dịch vụ kinh doanh thông minh (BI) - Được thiết kế đễ hỗ trỡ chu kì phát triển ứng dụng hoàn chỉnh: xây dựng, kiểm thử, triển khai, quản lý và cập nhật.Ưu điểm: Đa nền tảng - Chi phí tính phí trên mỗi lần truy cập - Tiết kiệm thời gian. Vấn đề: Lock-in: khách hàng phụ thuộc vào nhà cung cấp dịch vụ, khó khăn trong việc chuyển đổi nhà cung cấp dịch vụ - Internal-change: sự thay đổi của nhà cung cấp dịch vụ ảnh hưởng đến người dùng (ngôn ngữ, framework mà nhà cung cấp hỗ trợ,...) - Khả năng sẵn sàng và phục hồi. Ví dụ: Google App Engine, MS Azure Redis Cache,  Azure SQL Database, Google Map Platform, AWS Elastic Beantalk. Ng dùng dc quản lý Application và Data.
+  IaaS (Infrastructure as a Service): Đặc điểm: Cung cấp cơ sở hạ tầng điện toán tức thời thông qua internet như: server, thiết bị phần cứng lưu trữ và mạng, ảo hóa - Mỗi tài nguyên được cung cấp dưới dạng một dịch vụ riêng biệt - IaaS cũng cung cấp các dịch vụ đi kèm nhằm tự động hóa việc quản lý, điều phối, giám sát cơ sở hạ tầng. Ưu điểm: Tiết kiệm chi phí đầu tư - Tính sẵn sàng cao - Linh động trong việc thêm/giảm tài nguyên -Tiết kiệm thời gian - Bảo mật. Vấn đề: Quản lý chi phí - Quyền kiểm soát hệ thống – Noisyneighbor(xảy ra khi ứng dụn/người dùng sử dụng phần lớn tài nguyên gây giảm hiệu suất trên cơ sở hạ tầng chung). Ví dụ: Linux Virtual Machine, Google Compute Engine, AWS EC2. Người dùng dc quản lý: Applications – Data – Runtime – Middleware- O/S
+  DRaaS: Disaster Reconvery as a Service. XaaS: anything as a service
