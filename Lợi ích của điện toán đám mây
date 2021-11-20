@@ -7,7 +7,7 @@ Tiết kiệm thời gian - Dễ dàng mở rộng quy mô sản phẩm, tăng t
 Đảm bảo tính sẵn sàng cao (High Availability) - Khả năng phục hồi nhanh chóng (Resiliency) - Tính bảo mật cao -Giảm thiểu việc mất hoặc gián đoạn kết nối với dữ liệu, khách hàng - Có nhiều môi trường để kiểm tra, phát triển sản phẩm (testing - development)
 - KHẢ NĂNG PHÁT TRIỂN DOANH NGHIỆP:
 Remote Access: Cơ sở hạ tầng, dữ liệu có thể truy cập từ xa - Swift & Smooth: Vận hành hoạt động kinh doanh nhanh chóng, trơn tru hơn -  Focus: tập trung phát triển chức năng, dịch vụ chính của doanh nghiệp - Collaboration: Mở ra cơ hội cộng tác với các doanh nghiệp tổ chức khác
--	Một số ràng buộc khi sử dụng cloud:
+  Một số ràng buộc khi sử dụng cloud:
 - LIMITED PLATFORMS
 Phụ thuộc nhiều vào platform và phiên bản mà nhà cung cấp cloud hỗ trợ - Sự khác biệt về platform giữa các nhà cung cấp cloud và các instance mà người dùng mong muốn - Sự tương thích giữa nền tảng lưu trữ dữ liệu của doanh nghiệp và nhà cung cấp cloud
 - CONNECTIVITY
