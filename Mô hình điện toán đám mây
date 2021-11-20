@@ -2,10 +2,11 @@
 vận hành hệ thống máy chủ, ứng dụng cục bộ
 - Mô hình thuê hosting/VPS: Một bộ phận hệ thống máy chủ, dịch vụ mạng được triển khai tại các trung tâm lưu trữ dữ liệu
 của nhà cung cấp dịch vụ. Có thể thuê các ứng dụng chuyên biết phục vụ nhu cầu doanh nghiệp từ nhiều nhà cung cấp dịch vụ khác nhau.
-=> Vấn đề: * Nguồn lực IT chuyên nghiệp quản trị hệ thống 
-           * Nhu cầu mở rộng doanh nghiệp đi kèm sự mở rộng của hệ thống mạng, máy chủ, ứng dụng...
-           * Thời gian, chi phí để triển khai và vận hành hệ thống 
-           * Bảo mật
+=> Vấn đề: 
+* Nguồn lực IT chuyên nghiệp quản trị hệ thống 
+* Nhu cầu mở rộng doanh nghiệp đi kèm sự mở rộng của hệ thống mạng, máy chủ, ứng dụng...
+* Thời gian, chi phí để triển khai và vận hành hệ thống 
+* Bảo mật
 - Điện toán đám mây là một tập hợp các tài nguyên chia sẻ từ xa dựa trên nhu cầu cung cấp dịch vụ máy tính,
 lưu trữ, dịch vụ mạng, có thể được triển khai nhanh chóng theo nhiều quy mô.
 - Đặc tính của điện toán đám mây:
