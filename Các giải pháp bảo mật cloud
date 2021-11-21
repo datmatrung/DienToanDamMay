@@ -1,0 +1,34 @@
+* Ở mức độ Communication & network:
+- Sử dụng VLAN, IDS, IPS, tường lửa
+- Sử dụng các thiết bị ảo hóa và thiết bị vật lý có khả năng tương thích tốt với hypervisor: đảm bảo khả năng giám sát lưu lượng trên mạng ảo, phát hiện xâm nhập kịp thời.
+- Theo dõi liên tục các máy ảo đang chạy trên nền tảng máy chủ: nhanh chóng vô hiệu hóa các cuộc tấn công xuất phát từ bên trong.
+- Cô lập mạng ảo, sử dụng các giao thức L2TP để mã hóa dữ liệu trong kết nối VPN.
+* Ở mức độ Virtualization:
+- Áp dụng các phương thức bảo vệ trên hệ điều hành ảo.
+- Sử dụng các công cụ, kỹ thuật bảo mật từ bên thứ 3, giảm sự phụ thuộc vào nhà cung cấp dịch vụ cloud.
+- Mã hóa các thành phần của máy ảo (virtual disk, virtual devices, virtual network)
+- Phát triển các hypervisor, VMM bảo mật.
+* Ở mức độ Data/Storage:
+- Việc quản lý khóa bảo mật phải được thực hiện bởi một nguồn đáng tin cậy
+- Nên sử dụng các thuật toán mã hóa tiêu chuẩn để mã hóa dữ liệu trước khi tải lên cloud để đảm bảo quyền riêng tư của dữ liệu.
+- Bảo mật các thao tác được thực hiện trên dữ liệu người dùng
+- Hỗ trợ chia sẻ dữ liệu an toàn trong nhóm.
+- Xác định các yêu cầu quản trị về thông tin trước khi lập kế hoạch chuyển đổi sang đám mây.
+- Đảm bảo chính sách và thông lệ quản trị thông tin của doanh nghiệp khi triển khai vào cloud
+- Sử dụng vòng đời bảo mật dữ liệu để hỗ trỡ mô hình xử lý và điều khiển dữ liệu.
+- Create -> Store -> Use -> Share -> Archive -> Destroy
+* Ở mức độ Cloud Application & API
+- Các yêu cầu về bảo mật và quyền riêng tư phải được xác định phù hợp với nhu cầu phát triển và triển khai cloud.
+- Các rủi ro và hoạt động tấn công cụ thể trong cloud computing phải được phát hiện và đồng hóa vào các yêu cầu bảo mật.
+- Chu trình phát triển phần mềm và kiến trúc phần mềm an toàn nên được phát triển và duy trì (tái sử dụng các module phần mềm đã an toàn)
+- Thường xuyên kiểm tra thâm nhập cho các ứng dụng web.
+* Ở mức độ Identity management & Access control
+- IAM bao gồm identification (định danh), anthentication (chứng thực), authorization (ủy quyền), gồm cả quản lý truy cập.
+- Tin cậy hai chiều cần được đảm bảo cho các giao dịch an toàn.
+- Cloud platform hoặc cloud provider cần hỗ trợ phân nhóm quản trị, tạo các tài khoản quản trị cấp thấp hơn chỉ có thể quản lý các dịch vụ riêng lẻ.
+* Ở mức độ Contractual & legal:
+- Cần tích hợp các yếu tố định lượng rủi ro khi sử dụng các dịch vụ cloud cụ thể.
+- Cung cấp tùy chọn cho người dùng để đánh dấu những địa điểm mà người dùng không muốn di chuyển tài sản dữ liệu trong quá trình đàm phán SLA. (service level agreement)
+- Người dùng và Cloud Services Provider phải hiểu rõ về vai trò và trách nhiệm của nhau.
+- Các sản phẩm bảo mật mà nhà cung cấp dịch vụ cloud cung cấp: Infrastructure Security - Network security - Endpoint security - Data Security - Identity & Access Management -  Appliocation Security - Security Monitoring and Operations
+- Giao thức mã hóa dữ liệu trong kết nối VPN: L2TP
