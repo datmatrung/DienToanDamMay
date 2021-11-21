@@ -1,9 +1,9 @@
 Các tiêu chí lựa chọn nhà cung cấp dịch vụ cloud phù hợp:
 * Tình hình doanh nghiệp & Quy trình kinh doanh: 
-  - Tài chính 
-  - Quản lý rủi ro 
-  - Độ tin cậy 
-  - Kiến thức kinh doanh và kỹ thuật
+- Tài chính 
+- Quản lý rủi ro 
+- Độ tin cậy 
+- Kiến thức kinh doanh và kỹ thuật
 * Hỗ trợ quản trị: 
 - SLA (Service Levels Agreement) 
 - Báo cáo hiệu suất  
@@ -23,3 +23,14 @@ Các tiêu chí lựa chọn nhà cung cấp dịch vụ cloud phù hợp:
 * Migration Support: 
 - Vendor Lock-in 
 - Exit Planning
+* Nhà cung cấp cloud trong nước: 
+- Exa (backup)
+- Digistart (Cloud server, vps, hosting)
+- IDE (hosted private cloud)
+- FPT HI GIO Cloud (backup, hybrid)
+- BizFly (server, storage, email, CDN)
+- Ánh sáng Việt (cloud vps).
+* Nhà cung cấp cloud quốc tế:
+- Ucloud, Amazon, IBM, Google, Microsoft
+- Alibaba, CenturyLink, Fujisu, HPE, NTT
+- Oracle, Orange, Rackspace, Salesforce, VMware
