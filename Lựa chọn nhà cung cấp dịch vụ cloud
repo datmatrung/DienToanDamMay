@@ -1,9 +1,15 @@
 Các tiêu chí lựa chọn nhà cung cấp dịch vụ cloud phù hợp:
 Tình hình doanh nghiệp & Quy trình kinh doanh: 
-Tài chính - Quản lý rủi ro - Độ tin cậy - Kiến thức kinh doanh và kỹ thuật. 
+- Tài chính - Quản lý rủi ro - Độ tin cậy - Kiến thức kinh doanh và kỹ thuật. 
 Hỗ trợ quản trị: SLA (Service Levels Agreement) - Báo cáo hiệu suất  - Giám sát tài nguyên và quản lý cấu hình 
 - Thanh toán và quản lý chi phí. Khả năng & Quy trình kỹ thuật: Dễ dàng triển khai/quản lý/nâng cấp 
 - Chuẩn hóa giao tiếp -  Quản lý sự kiện - Quản lý thay đổi - Tính năng hybrid. 
-Bảo mật: Cơ sở hạ tầng bảo mật -  Chính sách bảo mật - Quản lý định danh - Sao lưu và lưu giữ dữ liệu - Bảo mật vật lý.  
-Migration Support: Vendor Lock-in - Exit Planning.
--	Một số nhà cung cấp dịch vụ cloud trong nước và quốc tế.  
+* Bảo mật: 
+- Cơ sở hạ tầng bảo mật 
+- Chính sách bảo mật 
+- Quản lý định danh 
+- Sao lưu và lưu giữ dữ liệu 
+- Bảo mật vật lý
+* Migration Support: 
+- Vendor Lock-in 
+- Exit Planning.
