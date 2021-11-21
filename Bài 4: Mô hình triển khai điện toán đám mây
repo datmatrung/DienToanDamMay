@@ -1,14 +1,52 @@
-- Public cloud:
-  Đặc điểm: Chia sẻ chung cơ sở hạ tầng, tài nguyên (network, storage, compute,...)  - Kết nối với các dịch vụ, dữ liệu từ nhiều vị trí thông qua kết nối internet - Người dùng không quản lý trực tiếp phần cứng, hay biết rõ vị trí đặt dữ liệu (location) - Thường được dùng triển khai các dịch vụ web-mail, ứng dụng văn phòng, hoặc các môi trường phát triển/ kiểm thử phần mềm - Nhà cung cấp dịch vụ quản lý: power, cooling, host failures, installations.
-  Lợi ích: Việc vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý - Chi phí thấp: chỉ trả phí các dịch vụ sử dụng - Tài nguyên được cung cấp theo nhu cầu nhười dùng - Khả năng phục hồi nhanh chóng, độ tin cậy cao
-  Vấn đề: Tính bảo mật và riêng tư  - Quyền kiểm soát hệ thống
-- Private cloud
-  Đặc điểm: Cơ sở hạ tầng, tài nguyên được duy trì trên một mạng riêng, các dịch vụ về phần cứng, phần mềm chỉ dành riêng cho doanh nghiệp - Doanh nghiệp có nhiều quyền hạn hơn trong việc quản lý cloud - Có khả năng truy cập/ điều khiển dữ liệu trực tiếp (physical) - Thường được dùng bởi các tổ chức quy mô vừa và lớn (chính phủ, tài chính,... )
-  Lợi ích:  Linh động hơn trong việc tùy chỉnh tài nguyên - Tính bảo mật cao hơn - Khả năng mở rộng
-  Vấn đề: Cần nguồn lực IT có kiến thức chuyên sâu  - Chi phí cao
-- Hybird cloud
-  Đặc điểm: Hybrid cloud là mô hình kết hợp giữa public cloud và private cloud, mở rộng mạng logic nội bộ - Linh động và có nhiều tùy chọn triển khai hơn trong việc di chuyển dữ liệu/ ứng dụng giữa private cloud và public cloud - Thường được cấu hình ngắn hạn, phù hợp làm tiền đề trước khi doanh nghiệp chuyển toàn bộ dịch vụ vào public cloud
-  Lợi ích: Có thể duy trì cơ sở hạ tầng nhạy cảm ở private cloud - Dễ dàng chuyển đổi mô hình mạng, tài nguyền sang cloud - Linh động trong việc thêm tài nguyên trong public cloud khi cần - Tiết kiệm chi phí hơn private cloud
-  Vấn đề: Triển khai phức tạp - Cần nguồn lực IT có kiến thức chuyên sâu  - Độ trễ khi truyền dữ liệu - Chi phí cao đối với doanh nghiệp có data ổn định
-- Community cloud: Cung cấp giải pháp cloud cho một số cá nhân hoặc nhóm các tổ chức, doanh nghiệp cùng lĩnh vực/ cùng mối quan tâm - Thường được áp dụng cho các tổ chức doanh nghiệp làm việc chung dự án, ứng dụng hoặc nghiên cứu - Chi phí thấp hơn private cloud nhưng cao hơn public cloud
-- Virtual Private Cloud: Một dạng mô hình của hybrid cloud, trong đó giải pháp private cloud được triển khai trên cơ sở hạ tầng của public cloud - Cơ sở hạ tầng được cô lập từng phần cụ thể dành riêng cho từng VPC (máy chủ, mạng ảo, lưu trữ và dải IP riêng), không chia sẻ với tổ chức doanh nghiệp khác - Phục vụ nhu cầu muốn tận dụng public cloud nhưng lo ngại về vấn đề bảo mật, quyền kiểm soát dữ liệu, quyền riêng tư
+* Public cloud
+Đặc điểm: 
+- Chia sẻ chung cơ sở hạ tầng, tài nguyên (network, storage, compute...)  
+- Kết nối với các dịch vụ, dữ liệu từ nhiều vị trí thông qua kết nối internet 
+- Người dùng không quản lý trực tiếp phần cứng hay biết rõ vị trí đặt dữ liệu (location) 
+- Thường được dùng triển khai các dịch vụ webmail, ứng dụng văn phòng, hoặc các môi trường phát triển/kiểm thử phần mềm 
+- Nhà cung cấp dịch vụ quản lý: power, cooling, host failures, installations
+Lợi ích: 
+- Việc vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý 
+- Chi phí thấp: chỉ trả phí các dịch vụ sử dụng 
+- Tài nguyên được cung cấp theo nhu cầu nhười dùng 
+- Khả năng phục hồi nhanh chóng, độ tin cậy cao
+Vấn đề: 
+- Tính bảo mật và riêng tư  
+- Quyền kiểm soát hệ thống
+* Private cloud
+Đặc điểm: 
+- Cơ sở hạ tầng, tài nguyên được duy trì trên một mạng riêng, các dịch vụ về phần cứng, phần mềm chỉ dành riêng cho doanh nghiệp 
+- Doanh nghiệp có nhiều quyền hạn hơn trong việc quản lý cloud 
+- Có khả năng truy cập/điều khiển dữ liệu trực tiếp (physical) 
+- Thường được dùng bởi các tổ chức quy mô vừa và lớn (chính phủ, tài chính...)
+Lợi ích:  
+- Linh động hơn trong việc tùy chỉnh tài nguyên 
+- Tính bảo mật cao hơn 
+- Khả năng mở rộng
+Vấn đề: 
+- Cần nguồn lực IT có kiến thức chuyên sâu  
+- Chi phí cao
+* Hybird cloud
+Đặc điểm: 
+- Hybrid cloud là mô hình kết hợp giữa public cloud và private cloud, mở rộng mạng logic nội bộ 
+- Linh động và có nhiều tùy chọn triển khai hơn trong việc di chuyển dữ liệu/ ứng dụng giữa private cloud và public cloud 
+- Thường được cấu hình ngắn hạn, phù hợp làm tiền đề trước khi doanh nghiệp chuyển toàn bộ dịch vụ vào public cloud
+Lợi ích: 
+- Có thể duy trì cơ sở hạ tầng nhạy cảm ở private cloud 
+- Dễ dàng chuyển đổi mô hình mạng, tài nguyền sang cloud 
+- Linh động trong việc thêm tài nguyên trong public cloud khi cần 
+- Tiết kiệm chi phí hơn private cloud
+Vấn đề: 
+- Triển khai phức tạp 
+- Cần nguồn lực IT có kiến thức chuyên sâu  
+- Độ trễ khi truyền dữ liệu 
+- Chi phí cao đối với doanh nghiệp có data ổn định
+* Community cloud: 
+- Cung cấp giải pháp cloud cho một số cá nhân hoặc nhóm các tổ chức, doanh nghiệp cùng lĩnh vực/cùng mối quan tâm 
+- Thường được áp dụng cho các tổ chức doanh nghiệp làm việc chung dự án, ứng dụng hoặc nghiên cứu 
+- Chi phí thấp hơn private cloud nhưng cao hơn public cloud
+* Virtual Private Cloud: 
+- Một dạng mô hình của hybrid cloud, trong đó giải pháp private cloud được triển khai trên cơ sở hạ tầng của public cloud 
+- Cơ sở hạ tầng được cô lập từng phần cụ thể dành riêng cho từng VPC (máy chủ, mạng ảo, lưu trữ và dải IP riêng)
+- Không chia sẻ với tổ chức doanh nghiệp khác 
+- Phục vụ nhu cầu muốn tận dụng public cloud nhưng lo ngại về vấn đề bảo mật, quyền kiểm soát dữ liệu, quyền riêng tư
