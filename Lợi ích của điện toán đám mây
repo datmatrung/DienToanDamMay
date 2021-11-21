@@ -1,5 +1,6 @@
 * Kỹ thuật mới:
-- Cloud phát triển với tốc độ nhanh chóng mang đến sự phát triển của các dịch vụ, công cụ mới nhất để tự động hóa và tự phục hồi cơ sở hạ tầng cho doanh nghiệp
+- Cloud phát triển với tốc độ nhanh chóng mang đến sự phát triển của các dịch vụ, công cụ mới nhất 
+- Để tự động hóa và tự phục hồi cơ sở hạ tầng cho doanh nghiệp
 - Cung cấp những kỹ thuật mới nhất như serverless, IoT... Hỗ trợ tối đa cho doanh nghiệp
 * Tiềm năng kinh tế:
 - Tiết kiệm thời gian 
@@ -7,17 +8,13 @@
 - Hỗ trợ sẵn tài nguyên: server, platform, service 
 - Tiết kiệm nhân lực IT để quản lý hệ thống
 * Giảm rủi ro:
-Đảm bảo tính sẵn sàng cao (High Availability) - Khả năng phục hồi nhanh chóng (Resiliency) - Tính bảo mật cao -Giảm thiểu việc mất hoặc gián đoạn kết nối với dữ liệu, khách hàng - Có nhiều môi trường để kiểm tra, phát triển sản phẩm (testing - development)
-* KHẢ NĂNG PHÁT TRIỂN DOANH NGHIỆP:
-Remote Access: Cơ sở hạ tầng, dữ liệu có thể truy cập từ xa - Swift & Smooth: Vận hành hoạt động kinh doanh nhanh chóng, trơn tru hơn -  Focus: tập trung phát triển chức năng, dịch vụ chính của doanh nghiệp - Collaboration: Mở ra cơ hội cộng tác với các doanh nghiệp tổ chức khác
-* Một số ràng buộc khi sử dụng cloud:
-- LIMITED PLATFORMS
-Phụ thuộc nhiều vào platform và phiên bản mà nhà cung cấp cloud hỗ trợ - Sự khác biệt về platform giữa các nhà cung cấp cloud và các instance mà người dùng mong muốn - Sự tương thích giữa nền tảng lưu trữ dữ liệu của doanh nghiệp và nhà cung cấp cloud
-- CONNECTIVITY
-Khả năng mất kết nối internet có thể dẫn đến việc mất dữ liệu tạm thời - Ảnh hưởng đến việc kết nối với khách hàng, đối tác -  Doanh thu của doanh nghiệp có thể bị ảnh hưởng trong thời gian mất kết nối - Tốc độ đường truyền internet cũng có thể ảnh hưởng đến hoạt động của doanh nghiệp
-- COST
-Chi phí cloud có thể tăng cao nếu không quản lý tốt - Nên loại bỏ những dịch vụ không thật sự cần thiết khi dùng cloud - Cần người am hiểu đầy đủ cách tính phí dịch vụ cloud để quản lý chi phí
-- TRUSTED
-Nhà cung cấp cloud có thể truy cập trực tiếp vào dữ liệu doanh nghiệp (physical access) - Doanh nghiệp có thể tăng tính bảo mật bằng cách mã hóa dữ liệu - Tham khảo và lựa chọn nhà cung cấp cloud uy tín, xem xét kỹ các chính sách bảo mật, quyền hạn của nhà cung cấp cloud và doanh nghiệp đối với dữ liệu
-- TECH-ABILITY
-Đội ngũ nhân viên cần đáp ứng kỹ năng làm việc với môi trường mới - Thiết kế ứng dụng có khả năng mở rộng: tách riêng phần xử lý và phần dữ liệu để dễ dàng phát triển riêng từng phần độc lập trong ứng dụng (possible-redesign)
+- Đảm bảo tính sẵn sàng cao (High Availability) 
+- Khả năng phục hồi nhanh chóng (Resiliency) 
+- Tính bảo mật cao 
+- Giảm thiểu việc mất hoặc gián đoạn kết nối với dữ liệu, khách hàng 
+- Có nhiều môi trường để kiểm tra, phát triển sản phẩm (testing - development)
+* Khả năng phát triển doanh nghiệp:
+- Remote Access: Cơ sở hạ tầng, dữ liệu có thể truy cập từ xa 
+- Swift & Smooth: Vận hành hoạt động kinh doanh nhanh chóng, trơn tru hơn 
+- Focus: tập trung phát triển chức năng, dịch vụ chính của doanh nghiệp 
+- Collaboration: Mở ra cơ hội cộng tác với các doanh nghiệp tổ chức khác
