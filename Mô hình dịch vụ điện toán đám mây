@@ -1,0 +1,49 @@
+* SaaS (Software as a Service)
+Đặc điểm:
+- SaaS cung cấp giải pháp phần mềm hoàn chỉnh cho người dùng thuê thông qua internet (thường là ứng dụng dạng web application) 
+- Tất cả các cơ sở hạ tầng cơ bản, phần mềm trung gian, phần mềm ứng dụng và dữ liệu ứng dụng được đặt tại trung tâm dữ liệu của nhà cung cấp cloud 
+- SaaS hỗ trợ doanh nghiệp sử dụng ứng dụng nhanh chóng, không cần cài đặt hay chuẩn bị môi trường cho ứng dụng trên máy tính cá nhân hay datacenter với chi phí tối thiểu 
+Ưu điểm: 
+- Chi phí linh hoạt, chi trả định kì 
+- Tự động cập nhật 
+- Dễ dàng truy cập 
+- Khả năng mở rộng hoặc thu hẹp tính năng của phần mềm
+- Việc vận hành, bảo trì cơ sở hạ tầng do nhà cung cấp cloud quản lý
+Vấn đề: 
+- Tính bảo mật và riêng tư
+- Quyền kiểm soát hệ thống
+Ví dụ: Office 365, G -suite
+* PaaS (Platform as a Service) 
+Đặc điểm: 
+- PaaS bao gồm cơ sở hạ tầng các máy chủ, hệ thống lưu trữ, kết nối mạng, các middleware
+- Công cụ phát triển ứng dụng, hệ thống quản lý cơ sở dữ liệu, các dịch vụ kinh doanh thông minh (BI) 
+- Được thiết kế đễ hỗ trỡ chu kì phát triển ứng dụng hoàn chỉnh: xây dựng, kiểm thử, triển khai, quản lý và cập nhật
+Ưu điểm: 
+- Đa nền tảng 
+- Chi phí tính phí trên mỗi lần truy cập 
+- Tiết kiệm thời gian. 
+Vấn đề: 
+- Lock-in: khách hàng phụ thuộc vào nhà cung cấp dịch vụ, khó khăn trong việc chuyển đổi nhà cung cấp dịch vụ 
+- Internal-change: sự thay đổi của nhà cung cấp dịch vụ ảnh hưởng đến người dùng (ngôn ngữ, framework mà nhà cung cấp hỗ trợ...) 
+- Khả năng sẵn sàng và phục hồi
+- Người dùng được quản lý Application và Data
+Ví dụ: Google App Engine, MS Azure Redis Cache, Azure SQL Database, Google Map Platform, AWS Elastic Beantalk
+* IaaS (Infrastructure as a Service)
+Đặc điểm: 
+- Cung cấp cơ sở hạ tầng điện toán tức thời thông qua internet như server, thiết bị phần cứng lưu trữ và mạng, ảo hóa 
+- Mỗi tài nguyên được cung cấp dưới dạng một dịch vụ riêng biệt 
+- IaaS cũng cung cấp các dịch vụ đi kèm nhằm tự động hóa việc quản lý, điều phối, giám sát cơ sở hạ tầng
+Ưu điểm: 
+- Tiết kiệm chi phí đầu tư 
+- Tính sẵn sàng cao 
+- Linh động trong việc thêm/giảm tài nguyên 
+- Tiết kiệm thời gian 
+- Bảo mật
+Vấn đề: 
+- Quản lý chi phí 
+- Quyền kiểm soát hệ thống 
+– Noisy neighbor: xảy ra khi ứng dụng/người dùng sử dụng phần lớn tài nguyên gây giảm hiệu suất trên cơ sở hạ tầng chung
+- Người dùng dc quản lý: Applications – Data – Runtime – Middleware- O/S
+Ví dụ: Linux Virtual Machine, Google Compute Engine, AWS EC2
+* DRaaS (Disaster Reconvery as a Service)
+* XaaS (Anything as a service)
