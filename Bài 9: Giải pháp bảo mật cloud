@@ -30,5 +30,12 @@
 - Cần tích hợp các yếu tố định lượng rủi ro khi sử dụng các dịch vụ cloud cụ thể.
 - Cung cấp tùy chọn cho người dùng để đánh dấu những địa điểm mà người dùng không muốn di chuyển tài sản dữ liệu trong quá trình đàm phán SLA. (service level agreement)
 - Người dùng và Cloud Services Provider phải hiểu rõ về vai trò và trách nhiệm của nhau.
-- Các sản phẩm bảo mật mà nhà cung cấp dịch vụ cloud cung cấp: Infrastructure Security - Network security - Endpoint security - Data Security - Identity & Access Management -  Appliocation Security - Security Monitoring and Operations
+* Các sản phẩm bảo mật mà nhà cung cấp dịch vụ cloud cung cấp:
+- Infrastructure Security 
+- Network security 
+- Endpoint security 
+- Data Security 
+- Identity & Access Management 
+- Appliocation Security 
+- Security Monitoring and Operations
 - Giao thức mã hóa dữ liệu trong kết nối VPN: L2TP
